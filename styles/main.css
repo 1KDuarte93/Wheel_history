@@ -1,0 +1,103 @@
+
+body {
+	background: #777;
+	margin: 0 0 0 ;
+}
+
+p {
+	text-align: justify;
+	font-size: 14;
+	font-family: verdana;
+}
+
+h1 {
+	font-style: italic;
+}
+
+footer {
+	bottom: 0px;
+}
+
+.darkerBG {
+	background: #777;
+}
+
+.row {
+	list-style-type: none;
+}
+
+/*****thumbnail*****/
+
+.imgmargin {
+	margin: 12px 0;
+}
+
+.caption .showOnHover {
+	display: none;
+}
+
+.caption:hover .showOnHover {
+	display: inline-block;
+}
+
+.thumbnail:hover {
+	margin: 3% 0 0 0;
+	box-shadow: 0px 0px 8px black;
+}
+
+/****history pages****/
+.rightimg {
+	margin: 0 0 17px 17px;
+}
+
+.margin_text_panel {
+	margin: 17px;
+}
+
+.switch_pages_imgs {
+	position: fixed;	
+    bottom: 5px;
+    left: 5px;
+    overflow-y: auto;
+}
+
+/*last homemade panel*/
+.panel_nb {
+	border: 1px solid black;
+	box-shadow: 5px 5px 5px black;
+	margin: 3%;
+	border-radius: 5px;
+}
+.panel_nb .header_nb {
+	color: white;
+	padding: 5px;
+	background-color: blue;
+}
+.panel_nb .body_nb { 
+	background: white;
+	padding: 5px;
+}
+
+.panel_nb .showOnHover {
+	display: none;
+}
+
+.panel_nb:hover .showOnHover {
+	display: inline-block;
+}
+
+/*IMAGES*/
+.hide {
+	display: none;
+}
+
+/*EDIT*/
+li input {
+	display: none;
+}
+li.edit span {
+	display: none;
+}
+li.edit input {
+	display: initial;
+}
